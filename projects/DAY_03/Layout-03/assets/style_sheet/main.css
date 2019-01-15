@@ -1,0 +1,127 @@
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main CSS */
+header {
+	text-align:center;
+	position:fixed;
+	width:100%;
+	top:0px;
+	background:gray;
+}
+body {
+	background: gray;
+	
+}
+.wrapper {
+	background: white;
+	width:1200px;
+	margin: 0 auto;
+	padding: 30px;
+	margin-top:30px;
+}
+a {
+	display:block;
+	font-size: 23px;
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	margin:5px 0;
+}
+.float-left {
+	float:left;
+}
+aside {
+	width: 300px;
+
+}
+article {
+	width: 600px;
+	margin-left: 300px;
+}
+img {
+	width: 590px;
+}
+.contain:before , .contain:after {
+	content: "";
+	display:table;
+}
+.contain:after {
+	clear:both;
+}
+.contain {
+	*zoom:1;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 24px;
+	margin: 10px;
+}
+p {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.fixed {
+	position: fixed;
+	
+}
+/* .gain:after, .gain:before {
+	content: "";
+	display:table;
+}
+.gain:after {
+	clear:both;
+}
+.gain
+	*zoom:1;
+} */

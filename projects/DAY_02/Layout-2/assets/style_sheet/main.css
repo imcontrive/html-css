@@ -1,0 +1,44 @@
+/* Main CSS */
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  /* background: aqua; */
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.big-box {
+  width: 400px;
+}
+.goggle {
+  background-color:#FE5349 ;
+}
+.material {
+  background-color: #0C8871;
+}
+.doodle {
+  background-color: #B601FF;
+}
+.google-plus {
+  background-color: #0DC1FD;
+}
+.design {
+  background-color:#08CA80 ;
+}
+.glass {
+  background-color: #01F361;
+}
+.html {
+  background-color: #E8FF1D;
+}
+.css {
+  background-color:#FE7405 ;
+}
+.js {
+  background-color: #E52F2D;
+}

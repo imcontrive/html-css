@@ -1,0 +1,71 @@
+/* main-css */
+.center {
+  text-align: center;
+}
+h2 {
+  text-transform: capitalize;
+}
+ hr {
+  border:1px dashed ;
+  margin:50px 400px;
+}
+
+/* Exercise 1 */
+.color-box {
+  width: 180px;
+  height: 100px;
+  background-color:#228B22;
+  border: 2px solid black;
+  padding:100px;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 0px 16px  aliceblue,0px 0px 0px 20px lightcoral; 
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.circle-parent {
+  display: inline-block;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle1 {
+  background-color: lightgreen;
+}
+
+.circle2 {
+  background-color: lightskyblue;
+}
+.circle3 {
+  background-color: black;
+}
+.circle4 {
+  background-color: lightcoral;
+}
+
+  /* Exercise 2 */
+.container {
+  width: 600px;
+  margin: 0 auto;
+  outline: 1px solid gray;
+  padding:10px 12px;
+  margin-top:50px; 
+}
+
+.box {
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  outline: 1px solid gray;
+  background-color: gray;
+  margin: 10px;
+}
+.border {
+  border: 1px solid;
+}
+.border-box {
+  box-sizing: border-box;
+}
