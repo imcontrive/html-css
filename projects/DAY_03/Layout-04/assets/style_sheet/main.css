@@ -1,0 +1,221 @@
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/************* Main CSS****************
+************************************ */
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+strong {
+	font-weight: 700;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+p {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #555;
+}
+.wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.padding {
+	padding: 120px 30px;
+}
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.heading {
+	font-size: 32px;
+	line-height: 1.5;
+	color: #777;
+	display: inline-block;
+	border-bottom: 3px double #ccc;
+}
+
+
+
+/* Hero Section */
+.hero {
+	background-color: #00cdcf;
+	text-align: center;
+	color: #fff;
+}
+.hero__heading {
+	max-width: 600px;
+	border: 3px solid #fff;
+	margin: 0 auto;
+	padding: 50px 80px;
+	border-top-style: double;
+	border-bottom-style: double;
+}
+.hero__heading h1 {
+	font-size: 36px;
+	line-height: 1.5;
+}
+.hero__text p {
+	font-size: 24px;
+	margin: 32px 0;
+}
+.hero__btn {
+	margin-top: 60px;
+}
+.hero__btn a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #009a9c;
+	padding: 12px 24px;
+}
+.hero__btn a:hover {
+	background: #00b4b5;
+}
+
+/* Secondary Section */
+.secondary {
+	text-align: center;
+}
+.secondary .wrapper {
+	margin-top: 80px;
+	text-align: center;
+}
+.secondary__box {
+	border: 1px solid #ccc;
+	width: 33.3333%;
+	float: left;
+	padding: 30px;
+	display: inline-block;
+}
+.secondary__box i {
+	font-size: 40px;
+	color: #00cdcf;
+}
+.secondary__box-heading {
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 20px 0;
+	color: #777;
+}
+.secondary__box2 {
+	float: none;
+}
+
+/* Contact Section */
+.contact {
+	text-align: center;
+	background: #f7f7f7;
+}
+.contact .wrapper {
+	margin-top: 50px;
+}
+.contact__form-element {
+	display: inline-block;
+	margin: 40px 0;
+}
+.contact__label {
+	display: block;
+	margin-bottom: 8px;
+}
+.contact input {
+	padding: 12px 16px;
+	width: 300px;
+	border:  2px solid #ccc;
+}
+.contact textarea {
+	width: 600px;
+	border:  2px solid #ccc;
+}
+.contact input:focus, .contact textarea:focus {
+	outline: 0;
+	border: 2px solid #00cdcf;
+	box-shadow: none;
+}
+.contact__btn {
+	margin-top: 50px;
+}
+.contact__btn a {
+	text-decoration: none;
+	background: #555;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 12px 24px;
+}
+
+/* Footer */
+hr {
+	width: 50%;
+	margin: 0;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+footer {
+	background: #f7f7f7;
+	text-align: center;
+	color: #ccc;
+}
+footer a {
+	color: #00cdcf;
+}
+footer a:hover {
+	text-decoration: none;
+}
