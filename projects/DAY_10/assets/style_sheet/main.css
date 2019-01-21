@@ -1,0 +1,217 @@
+/* CSS Resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/********Main CSS************/
+/****************************/
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+/*********clearfix*****/
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+/* header */
+header {
+	background: url("./../media/mountain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	height: 400px;
+	text-align: center;
+	position: relative;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px;
+	color:black;	
+}
+ul li {
+	display: inline-block;
+	font-size:30px;
+}
+header p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+}
+hr {
+	color:#BAFFCD;;
+	background: #BAFFCD;
+	height: 15px;
+}
+/* second section */
+.media{
+	width:1200px;
+	margin: 0 auto;
+}
+.media-img, .media-audio, .media-video {
+	max-width: 310px;
+	text-align: center;
+	float: left;
+}
+.img-size {
+	height: 250px;
+	width:250px;
+}
+.video-size{
+	height: 240px;
+	width:260px;
+}
+.media-audio{
+	margin: 0px 100px;
+}
+.media-audio-para{
+	margin-top: 50px;
+}
+.audio-btn {
+	width:220px;
+	margin-top: 150px;
+	border-radius: 12px;
+}
+/* section 3rd */
+.wrapper-iframe {
+	background-color:rgb(141, 163, 142);
+	text-align: center;
+}
+.media-iframe {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.media-img{
+	margin-left: 50px;
+}
+.media-iframe h1 {
+	font-size: 50px;
+	color: white;
+	padding: 20px;
+	line-height: 1.5;
+}
+.media-iframe p {
+	font-size: 16px;
+	margin: 30px 120px;
+	line-height: 1.5;
+}
+.media-iframe video{
+	max-width: 1200px;
+	color:white;
+	margin: 20px;
+}
+/* 4th section  */
+.wrapper-form {
+	max-width: 1400px;
+	width: 100%;
+	background: #BAFFCD;
+	margin: 0 auto;
+	padding: 80px;
+	text-align: center;
+}
+.wrapper-form2 {
+	width: 1200px;
+	background-color: white;
+}
+.form-header {
+	font-size: 24px;
+	padding: 50px;
+}
+.name, .email {
+	width: 525px;
+	height: 50px;
+	margin: 30px;
+}
+.name {
+	margin-right: 20px;
+}
+.subject {
+	width: 1100px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+.textarea {
+	width: 1100px;
+	height: 400px;
+}
+.button {
+	width: 250px;
+	height: 60px;
+	background-color:#436759;
+	color: white;
+	margin: 20px 0px;
+}
+/* map section */
+.map{
+	width: 1200px;
+	background: #2C2C2C;
+	margin: 0 auto;
+}
+.map iframe{
+	width: 1200px;
+}
+/* footer */
+footer {
+	background: #2C2C2C;
+	text-align:center;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0px;
+}
+footer a{
+	color:white;
+}
