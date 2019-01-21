@@ -63,8 +63,9 @@ table {
 	clear: both;
 }
 .clearfix {
-	*zoom:1;
+	*zoom: 1;
 }
+
 /* header */
 header {
 	background: url("./../media/mountain.jpg");
@@ -95,36 +96,48 @@ hr {
 	color:#BAFFCD;;
 	background: #BAFFCD;
 	height: 15px;
+	border: 0;
+	margin: 0;
 }
 /* second section */
-.media{
-	width:1200px;
+.media {
+	max-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 .media-img, .media-audio, .media-video {
-	max-width: 310px;
+	width: 400px;
 	text-align: center;
 	float: left;
+	padding: 20px;
+}
+.media-wrapper {
+	width: 400px;
+	height: 260px;
+	position: relative;
 }
 .img-size {
-	height: 250px;
-	width:250px;
-}
-.video-size{
-	height: 240px;
-	width:260px;
-}
-.media-audio{
-	margin: 0px 100px;
-}
-.media-audio-para{
-	margin-top: 50px;
+	height: 260px;
+	width: 260px;
 }
 .audio-btn {
-	width:220px;
-	margin-top: 150px;
+	width:260px;
 	border-radius: 12px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
 }
+.video-size{
+	height: 260px;
+	width:260px;
+}
+
+.media-para{
+	margin-top: 50px;
+}
+
+
 /* section 3rd */
 .wrapper-iframe {
 	background-color:rgb(141, 163, 142);
@@ -135,9 +148,6 @@ hr {
 	width: 100%;
 	margin: 0 auto;
 }
-.media-img{
-	margin-left: 50px;
-}
 .media-iframe h1 {
 	font-size: 50px;
 	color: white;
@@ -146,7 +156,6 @@ hr {
 }
 .media-iframe p {
 	font-size: 16px;
-	margin: 30px 120px;
 	line-height: 1.5;
 }
 .media-iframe video{
@@ -154,18 +163,19 @@ hr {
 	color:white;
 	margin: 20px;
 }
+
 /* 4th section  */
 .wrapper-form {
-	max-width: 1400px;
-	width: 100%;
 	background: #BAFFCD;
 	margin: 0 auto;
 	padding: 80px;
 	text-align: center;
 }
 .wrapper-form2 {
-	width: 1200px;
 	background-color: white;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
 }
 .form-header {
 	font-size: 24px;
